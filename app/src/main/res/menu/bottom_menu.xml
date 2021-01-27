@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_pool"
+        android:enabled="true"
+        android:title="Parki"
+        android:icon="@drawable/ic_baseline_nature_24"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/action_gym"
+        android:enabled="true"
+        android:title="Siłownie"
+        android:icon="@drawable/ic_baseline_fitness_center_24"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/action_pitch"
+        android:enabled="true"
+        android:title="Stadiony"
+        android:icon="@drawable/ic_baseline_sports_24"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+
+</menu>
